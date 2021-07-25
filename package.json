@@ -1,0 +1,27 @@
+{
+    "name": "only-black",
+    "displayName": "Only Black",
+    "description": "only black theme",
+    "version": "0.0.1",
+    "publisher": "Aska",
+    "repository": {
+        "type": "git",
+        "url": ""
+        
+    },
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Aska",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Aska-color-theme.json"
+            }
+        ]
+    }
+}
